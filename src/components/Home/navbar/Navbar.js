@@ -36,10 +36,10 @@ const Navbar = () => {
                             <li className="p-4 cursor-pointer text-white">
                                 Resources
                             </li>
-                            <li className="mt-4 mb-4 p-2 px-5 text-white bg-[#4750FA] rounded cursor-pointer">
+                            <li className="mt-4 mb-4 p-2 px-5 text-white bg-gradient-to-r from-[#4D42EF] to-[#557EF5] rounded cursor-pointer">
                                 Portfolio
                             </li>
-                            <li className="mt-4 mb-4 p-2 px-5 text-white bg-[#4750FA] rounded cursor-pointer">
+                            <li className="mt-4 mb-4 p-2 px-5 text-white bg-gradient-to-r from-[#4D42EF] to-[#557EF5] rounded cursor-pointer">
                                 Request an audit
                             </li>
 
