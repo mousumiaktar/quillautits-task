@@ -14,26 +14,26 @@ const Navbar = () => {
     return (
         <div className='container'>
             <nav
-                className='w-full z-50 pl-5 pr-5 sticky top-0'
+                className='w-full z-50 pl-5 pr-5 absolute'
             >
                 <div className="container mx-auto h-full bg-transparent">
-                    <div className="flex justify-between items-center w-full lg:px-8  z-50 nav-area left-0">
+                    <div className="flex justify-between items-center w-full lg:px-12  z-50 nav-area left-0">
                         <div className="logo flex items-center">
-                            <h2 className='text-xl font-bold'>QUILLAUDITS</h2>
+                            <h2 className='text-xl font-bold text-white'>QUILLAUDITS</h2>
                         </div>
 
 
                         <ul className="hidden md:flex text-black items-center gap-5">
-                            <li className="p-4 cursor-pointer">
+                            <li className="p-4 cursor-pointer text-white">
                                 Audit Services
                             </li>
-                            <li className="p-4 cursor-pointer">
+                            <li className="p-4 cursor-pointer text-white">
                                 Pricing
                             </li>
-                            <li className="p-4 cursor-pointer">
+                            <li className="p-4 cursor-pointer text-white">
                                 Blog
                             </li>
-                            <li className="p-4 cursor-pointer">
+                            <li className="p-4 cursor-pointer text-white">
                                 Resources
                             </li>
                             <li className="mt-4 mb-4 p-2 px-5 text-white bg-[#4750FA] rounded cursor-pointer">
