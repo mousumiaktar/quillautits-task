@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroArea from './heroArea/HeroArea';
 import PartnersArea from './partnersArea/PartnersArea';
+import Services from './services/Services';
 
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
         <div className=' '>
             <HeroArea />
             <PartnersArea />
+            <Services />
         </div>
     );
 };
