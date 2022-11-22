@@ -4,7 +4,7 @@ import { AiFillThunderbolt, AiOutlineDoubleRight, AiFillCodeSandboxSquare, AiOut
 
 const Services = () => {
     return (
-        <div className='px-12 md:flex lg:flex justify-around items-center my-12'>
+        <div className='px-12 md:flex lg:flex justify-around items-center my-16'>
             <div>
                 <img className='h-56' src={serviceimg} alt="" />
             </div>

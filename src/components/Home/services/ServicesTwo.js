@@ -3,7 +3,7 @@ import serviceimg2 from '../../../images/services/service2.png'
 
 const ServicesTwo = () => {
     return (
-        <div className='px-12 md:flex lg:flex justify-around items-center my-12'>
+        <div className='px-12 md:flex lg:flex justify-around items-center my-16'>
             <div>
                 <p className='text-sm text-[#2583EE]'>SERVICES</p>
                 <h2 className='text-2xl mt-5'>Blockchain Penetration Testing</h2>
