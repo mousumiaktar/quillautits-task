@@ -12,7 +12,7 @@ const Services = () => {
                 <p className='text-sm text-[#2583EE]'>SERVICES</p>
                 <h2 className='text-2xl mt-5'>Smart Contract Auditing</h2>
                 <p className='mt-5'>Our Audit process for smart contract for based on the <br /> comprehensive approach we follow to investigate the code <br /> for security flaws and potential vulnerabilities.</p>
-                <div className='mt-8'>
+                <div className='mt-5'>
                     <div className='flex items-center'>
                         <AiFillThunderbolt />
                         <p className='ml-2'>Etherem</p>
