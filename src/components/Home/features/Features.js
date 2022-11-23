@@ -10,7 +10,7 @@ const Features = () => {
         <div className='px-24 mb-6'>
             <div className='text-center pt-5'>
                 <p className='tracking-widest text-xs text-[#2583EE]'>MENTIONS</p>
-                <h2 className='text-2xl mt-4 mb-3'>As Featured In</h2>
+                <h2 className='text-3xl mt-4 mb-3'>As Featured In</h2>
                 <div className='md:grid grid-cols-3 gap-y-8 mt-12'>
                     <div className='mx-auto border-2 border-[#2583EE] rounded-xl shadow-xl px-12 py-8'>
                         <img className='h-10' src={feature6} alt="" />

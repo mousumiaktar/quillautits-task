@@ -7,6 +7,7 @@ import Security from './security/Security';
 import Services from './services/Services';
 import ServicesThree from './services/ServicesThree';
 import ServicesTwo from './services/ServicesTwo';
+import Testimonial from './testimonial/Testimonial';
 import WhyAudit from './whyAudit/WhyAudit';
 
 
@@ -22,6 +23,7 @@ const Home = () => {
             <Portfolio />
             <WhyAudit />
             <Features />
+            <Testimonial />
         </div>
     );
 };
