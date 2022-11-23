@@ -10,7 +10,7 @@ const Testimonial = () => {
                     <h2 className='text-2xl text-[#391400] mt-5 mb-3 font-bold'>What our Clients are saying</h2>
                 </div>
                 <div>
-                    <button className="mt-4 mb-4 p-1 px-4 text-white bg-gradient-to-r from-[#4D40EE] to-[#5E80F8] cursor-pointer rounded mr-5">Read More</button>
+                    <button className="mt-4 mb-4 p-1 px-4 text-white bg-gradient-to-r from-[#4D40EE] to-[#5E80F8] cursor-pointer rounded shadow-xl">Read More</button>
                 </div>
             </div>
 

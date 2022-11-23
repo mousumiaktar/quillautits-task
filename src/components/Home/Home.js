@@ -3,6 +3,7 @@ import Features from './features/Features';
 import HeroArea from './heroArea/HeroArea';
 import PartnersArea from './partnersArea/PartnersArea';
 import Portfolio from './portfolio/Portfolio';
+import Questions from './questions/Questions';
 import Security from './security/Security';
 import Services from './services/Services';
 import ServicesThree from './services/ServicesThree';
@@ -24,6 +25,7 @@ const Home = () => {
             <WhyAudit />
             <Features />
             <Testimonial />
+            <Questions />
         </div>
     );
 };
