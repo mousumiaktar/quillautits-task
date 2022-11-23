@@ -11,6 +11,7 @@ import Services from './services/Services';
 import ServicesThree from './services/ServicesThree';
 import ServicesTwo from './services/ServicesTwo';
 import Testimonial from './testimonial/Testimonial';
+import Web3Banner from './web3Banner/Web3Banner';
 import WhyAudit from './whyAudit/WhyAudit';
 
 
@@ -30,6 +31,7 @@ const Home = () => {
             <Questions />
             <News />
             <HashingBits />
+            <Web3Banner />
         </div>
     );
 };
