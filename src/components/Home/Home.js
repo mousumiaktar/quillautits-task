@@ -6,6 +6,7 @@ import Security from './security/Security';
 import Services from './services/Services';
 import ServicesThree from './services/ServicesThree';
 import ServicesTwo from './services/ServicesTwo';
+import WhyAudit from './whyAudit/WhyAudit';
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
             <ServicesThree />
             <Security />
             <Portfolio />
+            <WhyAudit />
         </div>
     );
 };
