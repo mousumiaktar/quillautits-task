@@ -1,6 +1,7 @@
 import React from 'react';
 import Features from './features/Features';
 import HeroArea from './heroArea/HeroArea';
+import News from './news/News';
 import PartnersArea from './partnersArea/PartnersArea';
 import Portfolio from './portfolio/Portfolio';
 import Questions from './questions/Questions';
@@ -26,6 +27,7 @@ const Home = () => {
             <Features />
             <Testimonial />
             <Questions />
+            <News />
         </div>
     );
 };

@@ -19,11 +19,6 @@ const Questions = () => {
             </div>
 
 
-            {/* =================================== */}
-
-
-
-
             <div id="accordion-flush" data-accordion="collapse" data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white" data-inactive-classes="text-gray-500 dark:text-gray-400" className='border-2 border-[#5E80F8] p-4 rounded'>
                 <h2 id="accordion-flush-heading-1">
                     <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-[#391400] border-b-2 border-[#5E80F8] dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-1" aria-expanded="true" aria-controls="accordion-flush-body-1">
