@@ -9,8 +9,8 @@ const ServicesThree = () => {
                 <img className='h-56' src={serviceimg3} alt="" />
             </div>
             <div>
-                <p className='text-sm text-[#2583EE]'>SERVICES</p>
-                <h2 className='text-2xl mt-5'>Smart Contract Auditing</h2>
+                <p className='tracking-widest text-xs text-[#2583EE]'>SERVICES</p>
+                <h2 className='text-2xl mt-5'>Due Diligence</h2>
                 <p className='mt-5'>QuilAudits acknowledges the significant threats involved in <br /> smart contracts, which can lead to many critical <br /> possibilities</p>
                 <div className='mt-5'>
                     <div className='flex items-center'>

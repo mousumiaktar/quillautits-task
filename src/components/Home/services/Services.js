@@ -1,5 +1,5 @@
 import React from 'react';
-import serviceimg from '../../../images/services/service.png';
+import serviceimg from '../../../images/services/service1.png';
 import { AiFillThunderbolt, AiOutlineDoubleRight, AiFillCodeSandboxSquare, AiOutlineForward } from "react-icons/ai";
 
 const Services = () => {
@@ -9,7 +9,7 @@ const Services = () => {
                 <img className='h-56' src={serviceimg} alt="" />
             </div>
             <div>
-                <p className='text-sm text-[#2583EE]'>SERVICES</p>
+                <p className='tracking-widest text-xs text-[#2583EE]'>SERVICES</p>
                 <h2 className='text-2xl mt-5'>Smart Contract Auditing</h2>
                 <p className='mt-5'>Our Audit process for smart contract for based on the <br /> comprehensive approach we follow to investigate the code <br /> for security flaws and potential vulnerabilities.</p>
                 <div className='mt-5'>

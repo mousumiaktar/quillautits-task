@@ -1,5 +1,5 @@
 import React from 'react';
-import heroimg2 from '../../../images/hero/heroimg2.png'
+import heroimg from '../../../images/hero/heroimg.png'
 import Pricing from './Pricing';
 
 const HeroArea = () => {
@@ -16,7 +16,7 @@ const HeroArea = () => {
                     </div>
                 </div>
                 <div>
-                    <img src={heroimg2} alt="" />
+                    <img src={heroimg} alt="" />
                 </div>
             </div>
             <Pricing />
