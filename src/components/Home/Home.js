@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroArea from './heroArea/HeroArea';
 import PartnersArea from './partnersArea/PartnersArea';
+import Portfolio from './portfolio/Portfolio';
 import Security from './security/Security';
 import Services from './services/Services';
 import ServicesThree from './services/ServicesThree';
@@ -16,6 +17,7 @@ const Home = () => {
             <ServicesTwo />
             <ServicesThree />
             <Security />
+            <Portfolio />
         </div>
     );
 };
