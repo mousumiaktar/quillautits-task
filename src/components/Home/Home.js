@@ -1,4 +1,5 @@
 import React from 'react';
+import Features from './features/Features';
 import HeroArea from './heroArea/HeroArea';
 import PartnersArea from './partnersArea/PartnersArea';
 import Portfolio from './portfolio/Portfolio';
@@ -20,6 +21,7 @@ const Home = () => {
             <Security />
             <Portfolio />
             <WhyAudit />
+            <Features />
         </div>
     );
 };
