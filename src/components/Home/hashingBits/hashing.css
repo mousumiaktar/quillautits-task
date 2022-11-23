@@ -1,0 +1,8 @@
+.mailone{
+    position: relative;
+}
+.mailtwo{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 128px;
+}

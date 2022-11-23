@@ -1,5 +1,6 @@
 import React from 'react';
 import Features from './features/Features';
+import HashingBits from './hashingBits/HashingBits';
 import HeroArea from './heroArea/HeroArea';
 import News from './news/News';
 import PartnersArea from './partnersArea/PartnersArea';
@@ -28,6 +29,7 @@ const Home = () => {
             <Testimonial />
             <Questions />
             <News />
+            <HashingBits />
         </div>
     );
 };
