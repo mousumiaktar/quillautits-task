@@ -25,12 +25,12 @@ const Questions = () => {
 
                     <Accordion.Panel class="divide-y divide-blue-200">
                         <Accordion.Title>
-                            <h3 className='text-[#391400] text-xl'>
+                            <h3 className='text-[#391400] text-xl p-6'>
                                 What is smart contract security?
                             </h3>
                         </Accordion.Title>
                         <Accordion.Content>
-                            <p className="mb-2 text-[#391400] dark:text-gray-400">
+                            <p className="mb-2 text-[#391400] dark:text-gray-400 p-6">
                                 Smart Contract Security is a set of best practies to identify bugs and vulnerabilities in the code that can lead to security breaches. These loopholes have lead to huge financial losses recently.
                             </p>
 
@@ -41,7 +41,7 @@ const Questions = () => {
 
                     <Accordion.Panel class="divide-y divide-blue-200">
                         <Accordion.Title>
-                            <h3 className='text-[#391400] text-xl'>
+                            <h3 className='text-[#391400] text-xl p-6'>
                                 Are smart contracts vulnerable?
                             </h3>
                         </Accordion.Title>
@@ -56,7 +56,7 @@ const Questions = () => {
 
                     <Accordion.Panel class="divide-y divide-blue-200">
                         <Accordion.Title>
-                            <h3 className='text-[#391400] text-xl'>
+                            <h3 className='text-[#391400] text-xl p-6'>
                                 What is a smart contract audit?
                             </h3>
                         </Accordion.Title>
@@ -71,7 +71,7 @@ const Questions = () => {
 
                     <Accordion.Panel>
                         <Accordion.Title className='text-[#391400]'>
-                            <h3 className='text-[#391400] text-xl'>
+                            <h3 className='text-[#391400] text-xl p-8'>
                                 Why do smart contract fail?
                             </h3>
                         </Accordion.Title>
