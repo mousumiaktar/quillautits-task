@@ -5,7 +5,7 @@ const Portfolio = () => {
     return (
         <div className='bg-[#0E1B4E] bg-gradient-to-b from-[#0E1B4E] to-[#1E3C7A] py-8'>
             <div className='text-center pt-5'>
-                <p className='tracking-widest text-xs text-[#2583EE]'>PORTFOLIO</p>
+                <p className='tracking-widest text-sm text-[#2583EE]'>PORTFOLIO</p>
                 <h2 className='text-white text-2xl mt-5 mb-3'>Latest Work</h2>
                 <div>
                     <button className="mt-4 mb-4 p-1 px-4 text-white bg-[#557EF5] cursor-pointer rounded-full mr-5">Ethereum</button>

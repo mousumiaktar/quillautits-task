@@ -4,7 +4,7 @@ const WhyAudit = () => {
     return (
         <div className='px-12 md:flex lg:flex justify-around items-center my-16'>
             <div className=''>
-                <p className='tracking-widest text-xs text-[#2583EE]'>WHY ARE WE HERE</p>
+                <p className='tracking-widest text-sm text-[#2583EE]'>WHY ARE WE HERE</p>
 
                 <div className='text-2xl mt-2 leading-relaxed'>
                     <h2>What is the Need of</h2>

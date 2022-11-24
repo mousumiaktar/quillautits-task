@@ -6,7 +6,7 @@ const Testimonial = () => {
         <div className='px-24 my-24'>
             <div className='md:flex items-center justify-between mb-6'>
                 <div>
-                    <p className='tracking-widest text-xs text-[#2583EE]'>TESTIMONIALS</p>
+                    <p className='tracking-widest text-sm text-[#2583EE]'>TESTIMONIALS</p>
                     <h2 className='text-2xl text-[#391400] mt-5 mb-3 font-bold'>What our Clients are saying</h2>
                 </div>
                 <div>
@@ -16,8 +16,8 @@ const Testimonial = () => {
 
             <div className='md:grid grid-cols-3 gap-4 text-center'>
 
-                <div>
-                    <div className='flex items-center md:ml-32'>
+                <div className=''>
+                    <div className='flex items-center justify-center'>
                         <ImStack className='w-10 h-10 mr-4' />
                         <h3 className='text-2xl'>Stack<span className='font-bold'>OS</span></h3>
                     </div>
@@ -29,7 +29,7 @@ const Testimonial = () => {
                 </div>
 
                 <div>
-                    <div className='flex items-center md:ml-32'>
+                    <div className='flex items-center justify-center'>
                         <ImStack className='w-10 h-10 mr-4' />
                         <h3 className='text-2xl'>Stack<span className='font-bold'>OS</span></h3>
                     </div>
@@ -41,7 +41,7 @@ const Testimonial = () => {
                 </div>
 
                 <div>
-                    <div className='flex items-center md:ml-32'>
+                    <div className='flex items-center justify-center'>
                         <ImStack className='w-10 h-10 mr-4' />
                         <h3 className='text-2xl'>Stack<span className='font-bold'>OS</span></h3>
                     </div>

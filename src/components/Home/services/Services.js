@@ -6,10 +6,10 @@ const Services = () => {
     return (
         <div className='px-12 md:flex lg:flex justify-around items-center my-16'>
             <div>
-                <img className='h-56' src={serviceimg} alt="" />
+                <img className='h-72' src={serviceimg} alt="" />
             </div>
             <div>
-                <p className='tracking-widest text-xs text-[#2583EE]'>SERVICES</p>
+                <p className='tracking-widest text-sm text-[#2583EE]'>SERVICES</p>
                 <h2 className='text-2xl mt-5'>Smart Contract Auditing</h2>
                 <p className='mt-5'>Our Audit process for smart contract for based on the <br /> comprehensive approach we follow to investigate the code <br /> for security flaws and potential vulnerabilities.</p>
                 <div className='mt-5'>

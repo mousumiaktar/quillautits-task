@@ -3,7 +3,7 @@ import web3img from '../../../images/web3/web3.png';
 
 const Web3Banner = () => {
     return (
-        <div className='md:mx-24'>
+        <div className='md:mx-24 mb-12'>
             <div className='bg-[#2D83EE] md:flex items-center justify-around py-10 px-2 rounded-3xl md:mx-10 gap-4'>
                 <div>
                     <div className='text-2xl text-white leading-relaxed'>

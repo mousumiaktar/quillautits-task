@@ -1,5 +1,6 @@
 import React from 'react';
 import Features from './features/Features';
+import Footer from './footer/Footer';
 import HashingBits from './hashingBits/HashingBits';
 import HeroArea from './heroArea/HeroArea';
 import News from './news/News';
@@ -32,6 +33,7 @@ const Home = () => {
             <News />
             <HashingBits />
             <Web3Banner />
+            <Footer />
         </div>
     );
 };

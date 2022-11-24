@@ -6,10 +6,10 @@ const ServicesThree = () => {
     return (
         <div className='px-12 md:flex lg:flex justify-around items-center my-16'>
             <div>
-                <img className='h-56' src={serviceimg3} alt="" />
+            <img className='h-80' src={serviceimg3} alt="" />
             </div>
             <div>
-                <p className='tracking-widest text-xs text-[#2583EE]'>SERVICES</p>
+                <p className='tracking-widest text-sm text-[#2583EE]'>SERVICES</p>
                 <h2 className='text-2xl mt-5'>Due Diligence</h2>
                 <p className='mt-5'>QuilAudits acknowledges the significant threats involved in <br /> smart contracts, which can lead to many critical <br /> possibilities</p>
                 <div className='mt-5'>

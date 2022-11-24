@@ -3,18 +3,27 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 
 const Navbar = () => {
-
     const [nav, setNav] = useState(false);
+    const [navbar, setNavbar] = useState(false)
 
     const handleNav = () => {
         setNav(!nav);
     };
     
 
+    const changeBackground = () => {
+        if (window.scrollY >= 68) {
+          setNavbar(true);
+        } else {
+          setNavbar(false);
+        }
+      }
+    
+      window.addEventListener('scroll', changeBackground);
+
     return (
         <div className='container'>
-            <nav
-                className='w-full z-50 pl-5 pr-5 absolute'
+            <nav className='w-full z-50 pl-5 pr-5 absolute'
             >
                 <div className="container mx-auto h-full bg-transparent">
                     <div className="flex justify-between items-center w-full lg:px-12  z-50 nav-area left-0">
@@ -46,13 +55,13 @@ const Navbar = () => {
                         </ul>
 
                         <div onClick={handleNav} className="block md:hidden">
-                            {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+                            {nav ? <AiOutlineClose className="text-white" size={20} /> : <AiOutlineMenu className="text-white" size={20} />}
                         </div>
 
                         <ul
                             className={
                                 nav
-                                    ? "fixed left-2 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
+                                    ? "fixed top-0 left-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
                                     : "ease-in-out duration-500 fixed left-[-100%]"
                             }
                         >

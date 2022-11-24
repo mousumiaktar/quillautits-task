@@ -1,5 +1,5 @@
 import React from 'react';
-import heroimg from '../../../images/hero/heroimg.png'
+import heroimg from '../../../images/hero/hero.png'
 import Pricing from './Pricing';
 
 const HeroArea = () => {
@@ -7,7 +7,7 @@ const HeroArea = () => {
         <div className=' bg-[#0E1B4E] bg-gradient-to-b from-[#0E1B4E] to-[#1E3C7A] '>
             <div className='md:flex justify-between items-center px-5 mx-12 gap-8 relative pt-36 '>
                 <div className='my-12'>
-                    <h3 className='text-3xl text-white leading-10'>Emerging Web3 Ventures <br /> Rrust Our Smart Contract <br /> Audits & Diligence Services</h3>
+                    <h3 className='text-4xl text-white leading-tight'>Emerging Web3 Ventures <br /> Rrust Our Smart Contract <br /> Audits & Diligence Services</h3>
                     <p className='text-white mt-10'>QuillAudits, Making web3 a safe place</p>
 
                     <div className='flex mt-6'>
@@ -16,7 +16,7 @@ const HeroArea = () => {
                     </div>
                 </div>
                 <div>
-                    <img src={heroimg} alt="" />
+                    <img className='h-96 pr-10 pb-8' src={heroimg} alt="" />
                 </div>
             </div>
             <Pricing />
