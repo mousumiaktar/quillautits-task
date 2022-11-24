@@ -14,7 +14,7 @@ const Portfolio = () => {
                     <button className="mt-4 mb-4 px-4 p-1 text-white border border-white rounded-full cursor-pointer">Solona</button>
                 </div>
             </div>
-            <div className='md:grid grid-cols-3 mx-12 my-8'>
+            <div className='md:grid grid-cols-3 md:mx-12 mx-16 my-8'>
                 <div className='mx-auto'>
                     <div>
                         <img src={Portfolioimg} alt="" />

@@ -1,25 +1,16 @@
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import logo from '../../../images/logo.png';
 
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
-    const [navbar, setNavbar] = useState(false)
+
 
     const handleNav = () => {
         setNav(!nav);
     };
     
-
-    const changeBackground = () => {
-        if (window.scrollY >= 68) {
-          setNavbar(true);
-        } else {
-          setNavbar(false);
-        }
-      }
-    
-      window.addEventListener('scroll', changeBackground);
 
     return (
         <div className='container'>
@@ -28,7 +19,7 @@ const Navbar = () => {
                 <div className="container mx-auto h-full bg-transparent">
                     <div className="flex justify-between items-center w-full lg:px-12  z-50 nav-area left-0">
                         <div className="logo flex items-center">
-                            <h2 className='text-xl font-bold text-white'>QUILLAUDITS</h2>
+                            <img className="h-24" src={logo} alt="" />
                         </div>
 
 
@@ -65,7 +56,7 @@ const Navbar = () => {
                                     : "ease-in-out duration-500 fixed left-[-100%]"
                             }
                         >
-                            <h2 className='text-xl font-bold'>QUILLAUDITS</h2>
+                            <img className="h-16" src={logo} alt="" />
                             <li className="p-4 border-b border-gray-600 text-white">audit services</li>
                             <li className="p-4 border-b border-gray-600 text-white">pricing</li>
                             <li className="p-4 border-b border-gray-600 text-white">Blog</li>

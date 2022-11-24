@@ -61,16 +61,22 @@ const Footer = () => {
             </div>
             <div className='mx-12'>
                 <p className='text-center text-white pr-40'>Join our Journey</p>
-                <div className='flex items-center gap-4 ml-auto mr-auto w-[50%] mt-5'>
-                    <img className='h-10' src={img1} alt="" />
-                    <img className='h-10' src={img2} alt="" />
-                    <img className='h-10' src={img3} alt="" />
-                    <img className='h-10' src={img4} alt="" />
-                    <img className='h-10' src={img5} alt="" />
-                    <img className='h-10' src={img6} alt="" />
-                    <img className='h-10' src={img7} alt="" />
-                    <img className='h-10' src={img8} alt="" />
-                    <img className='h-10' src={img9} alt="" />
+                <div className='md:flex items-center gap-4 md:ml-auto md:mr-auto md:w-[50%]  mt-5'>
+                    <div className='flex gap-4 mb-4 md:mb-0'>
+                        <img className='h-10' src={img1} alt="" />
+                        <img className='h-10' src={img2} alt="" />
+                        <img className='h-10' src={img3} alt="" />
+                    </div>
+                    <div className='flex gap-4 mb-4 md:mb-0'>
+                        <img className='h-10' src={img4} alt="" />
+                        <img className='h-10' src={img5} alt="" />
+                        <img className='h-10' src={img6} alt="" />
+                    </div>
+                    <div className='flex gap-4'>
+                        <img className='h-10' src={img7} alt="" />
+                        <img className='h-10' src={img8} alt="" />
+                        <img className='h-10' src={img9} alt="" />
+                    </div>
                 </div>
                 <hr className='mt-5 opacity-20' />
                 <p className='text-center text-white text-xs mt-3'>All Rights Reserved, @Copyright 2022. QuillHash Technologies Private Limited</p>

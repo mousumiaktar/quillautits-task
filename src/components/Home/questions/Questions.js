@@ -8,7 +8,7 @@ const Questions = () => {
             <div className=''>
                 <p className='tracking-widest text-sm text-[#2583EE]'>FAQ</p>
 
-                <div className='text-2xl mt-2 leading-relaxed'>
+                <div className='text-2xl mt-2 leading-relaxed text-[#391400]'>
                     <h2>Frequently Asked</h2>
                     <h2>Questions</h2>
                 </div>
@@ -20,12 +20,14 @@ const Questions = () => {
                 <button className="mt-6 mb-4 p-2 px-4 shadow-xl text-white bg-gradient-to-r from-[#4D40EE] to-[#5E80F8] rounded cursor-pointer">Contact Us</button>
             </div>
 
-            <div className='w-[40%]'>
+            <div className='md:w-[40%] lg:w-[40%]'>
                 <Accordion className='border-2 border-[#5E80F8] rounded-lg'>
 
                     <Accordion.Panel class="divide-y divide-blue-200">
                         <Accordion.Title>
-                            What is Flowbite?
+                            <h3 className='text-[#391400] text-xl'>
+                                What is smart contract security?
+                            </h3>
                         </Accordion.Title>
                         <Accordion.Content>
                             <p className="mb-2 text-[#391400] dark:text-gray-400">
@@ -34,12 +36,14 @@ const Questions = () => {
 
                         </Accordion.Content>
                     </Accordion.Panel>
-                    
+
                     <hr className='bg-[#5e80F8]' />
 
                     <Accordion.Panel class="divide-y divide-blue-200">
                         <Accordion.Title>
-                            Are smart contracts vulnerable?
+                            <h3 className='text-[#391400] text-xl'>
+                                Are smart contracts vulnerable?
+                            </h3>
                         </Accordion.Title>
                         <Accordion.Content>
                             <p className="mb-2 text-[#391400] dark:text-gray-400">
@@ -52,7 +56,9 @@ const Questions = () => {
 
                     <Accordion.Panel class="divide-y divide-blue-200">
                         <Accordion.Title>
-                            What is a smart contract audit?
+                            <h3 className='text-[#391400] text-xl'>
+                                What is a smart contract audit?
+                            </h3>
                         </Accordion.Title>
                         <Accordion.Content>
                             <p className="mb-2 text-[#391400] dark:text-gray-400">
@@ -65,7 +71,9 @@ const Questions = () => {
 
                     <Accordion.Panel>
                         <Accordion.Title className='text-[#391400]'>
-                           Why do smart contract fail?
+                            <h3 className='text-[#391400] text-xl'>
+                                Why do smart contract fail?
+                            </h3>
                         </Accordion.Title>
                         <Accordion.Content>
                             <p className="mb-2 text-[#391400] dark:text-gray-400">

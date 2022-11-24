@@ -15,24 +15,24 @@ const WhyAudit = () => {
             </div>
 
             <div>
-                <div>
-                    <p className='border-2 border-[#BBD4F5] text-center text-sm p-4 rounded-xl text-[#2583EE] w-[55%] ml-56'>Smart contract Audit build social authority</p>
+                <div className='mb-4 md:mb-0 lg:mb-0'>
+                    <p className='border-2 border-[#BBD4F5] text-center text-sm p-4 rounded-xl text-[#2583EE] md:w-[55%] lg:w-[55%] md:ml-56 lg:ml-56'>Smart contract Audit build social authority</p>
+                </div>
+
+                <div className='mb-4 md:mb-0 lg:mb-0'>
+                    <p className='border-2 border-[#BBD4F5] text-center text-sm p-4 rounded-xl text-[#2583EE] md:w-[60%] lg:w-[60%] md:ml-24 lg:ml-24'>Only 52.7% of the Exploited Web3 Projects were Audited</p>
+                </div>
+
+                <div className='mb-4 md:mb-0 lg:mb-0'>
+                    <p className='border-2 border-[#BBD4F5] text-center text-sm p-4 rounded-xl text-white bg-[#4A4BEE] md:w-[65%] lg:w-[65%]'>47.3% of the Web3 Hacks in First Half of 2022 were due to Smart Contract Vulnerabilities.</p>
+                </div>
+
+                <div className='mb-4 md:mb-0 lg:mb-0'>
+                    <p className='border-2 border-[#BBD4F5] text-center text-sm p-4 rounded-xl text-[#2583EE] md:w-[65%] lg:w-[65%] md:ml-24 lg:ml-24'>Helps in Earning Users/Investors Trust for the Product</p>
                 </div>
 
                 <div>
-                    <p className='border-2 border-[#BBD4F5] text-center text-sm p-4 rounded-xl text-[#2583EE] w-[60%] ml-24'>Only 52.7% of the Exploited Web3 Projects were Audited</p>
-                </div>
-
-                <div>
-                    <p className='border-2 border-[#BBD4F5] text-center text-sm p-4 rounded-xl text-white bg-[#4A4BEE] w-[65%]'>47.3% of the Web3 Hacks in First Half of 2022 were due to Smart Contract Vulnerabilities.</p>
-                </div>
-
-                <div>
-                    <p className='border-2 border-[#BBD4F5] text-center text-sm p-4 rounded-xl text-[#2583EE] w-[65%] ml-24'>Helps in Earning Users/Investors Trust for the Product</p>
-                </div>
-
-                <div>
-                    <p className='border-2 border-[#BBD4F5] text-center text-sm p-4 rounded-xl text-[#2583EE] w-[55%] ml-56'>Helps in Earning Users/Investors Trust for the Product</p>
+                    <p className='border-2 border-[#BBD4F5] text-center text-sm p-4 rounded-xl text-[#2583EE] md:w-[55%] lg:w-[55%] md:ml-56 lg:ml-56'>Helps in Earning Users/Investors Trust for the Product</p>
                 </div>
             </div>
         </div>
